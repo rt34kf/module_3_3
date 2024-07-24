@@ -2,7 +2,6 @@ def print_params(a=75, b='Alex', c=True):
     print(a, b, c)
 
 #print_params('Den', 'Egor', 14, 3.68) ошибка, парметров больше указанных!
-#print_params(13, 2) ошибка, параметров меньше указанных!
 print_params()
 print_params(b=25)
 print_params(c=[1,2,3])
